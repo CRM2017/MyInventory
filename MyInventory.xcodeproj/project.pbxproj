@@ -20,6 +20,8 @@
 		3A22CEE4260FFBBB00266BA5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22CEE3260FFBBB00266BA5 /* Utilities.swift */; };
 		3A9A0187261022B1007A4B17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A0186261022B1007A4B17 /* Constants.swift */; };
 		3AD8E9A326105ABC002B2959 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AD8E9A226105ABC002B2959 /* GoogleService-Info.plist */; };
+		3AD8E9D126168411002B2959 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD8E9D026168411002B2959 /* AddViewController.swift */; };
+		3AD8E9E926197BFA002B2959 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD8E9E826197BFA002B2959 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		3A22CEE3260FFBBB00266BA5 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3A9A0186261022B1007A4B17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3AD8E9A226105ABC002B2959 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3AD8E9D026168411002B2959 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3AD8E9E826197BFA002B2959 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		4866379BD8877FD550A2657D /* Pods-MyInventory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInventory.debug.xcconfig"; path = "Target Support Files/Pods-MyInventory/Pods-MyInventory.debug.xcconfig"; sourceTree = "<group>"; };
 		92C16EEB20F1738BBC07ADDC /* Pods-MyInventory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyInventory.release.xcconfig"; path = "Target Support Files/Pods-MyInventory/Pods-MyInventory.release.xcconfig"; sourceTree = "<group>"; };
 		95105CE99382F5CBFC616A2E /* Pods_MyInventory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyInventory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +99,8 @@
 				3A22CEDA2609D84900266BA5 /* LoginViewController.swift */,
 				3A22CEDD2609D86100266BA5 /* HomeViewController.swift */,
 				3A22CEC62609D74300266BA5 /* ViewController.swift */,
+				3AD8E9D026168411002B2959 /* AddViewController.swift */,
+				3AD8E9E826197BFA002B2959 /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -122,7 +128,6 @@
 				4866379BD8877FD550A2657D /* Pods-MyInventory.debug.xcconfig */,
 				92C16EEB20F1738BBC07ADDC /* Pods-MyInventory.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -243,11 +248,13 @@
 			files = (
 				3A22CEC72609D74300266BA5 /* ViewController.swift in Sources */,
 				3A22CEC32609D74300266BA5 /* AppDelegate.swift in Sources */,
+				3AD8E9D126168411002B2959 /* AddViewController.swift in Sources */,
 				3A22CEE4260FFBBB00266BA5 /* Utilities.swift in Sources */,
 				3A22CED82609D81500266BA5 /* SignUpViewController.swift in Sources */,
 				3A22CEDB2609D84900266BA5 /* LoginViewController.swift in Sources */,
 				3A22CEC52609D74300266BA5 /* SceneDelegate.swift in Sources */,
 				3A22CEDE2609D86100266BA5 /* HomeViewController.swift in Sources */,
+				3AD8E9E926197BFA002B2959 /* TabBarViewController.swift in Sources */,
 				3A9A0187261022B1007A4B17 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

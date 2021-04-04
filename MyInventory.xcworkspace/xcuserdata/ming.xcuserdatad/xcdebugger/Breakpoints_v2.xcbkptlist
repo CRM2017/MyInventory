@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "32393FD6-8644-4A68-BC3B-A0032C2D7B7E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4298A2C7-B367-40F1-8ACD-21C3EEDD38B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyInventory/ViewControllers/SignUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SignUpViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4298A2C7-B367-40F1-8ACD-21C3EEDD38B9 - d1f09d8d0ea686d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyInventory.SignUpViewController.firstNameTextField.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "MyInventory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ming/Desktop/4905/MyInventory/ViewControllers/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "4298A2C7-B367-40F1-8ACD-21C3EEDD38B9 - eea6c3e39e345459"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyInventory.SignUpViewController.firstNameTextField.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "MyInventory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ming/Desktop/4905/MyInventory/ViewControllers/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "4298A2C7-B367-40F1-8ACD-21C3EEDD38B9 - b66c135498260f7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyInventory.SignUpViewController.firstNameTextField.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "MyInventory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ming/Desktop/4905/MyInventory/ViewControllers/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "4298A2C7-B367-40F1-8ACD-21C3EEDD38B9 - d9cef5c6970dbf4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyInventory.SignUpViewController.firstNameTextField.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MyInventory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ming/Desktop/4905/MyInventory/ViewControllers/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "4298A2C7-B367-40F1-8ACD-21C3EEDD38B9 - 5f8b85acf9ea2ae2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyInventory.SignUpViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MyInventory.SignUpViewController"
+                  moduleName = "MyInventory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ming/Desktop/4905/MyInventory/ViewControllers/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "303">
+               </Location>
+               <Location
+                  uuid = "4298A2C7-B367-40F1-8ACD-21C3EEDD38B9 - 88ffc61fd25e9e08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyInventory.SignUpViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MyInventory.SignUpViewController&gt;"
+                  moduleName = "MyInventory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ming/Desktop/4905/MyInventory/ViewControllers/SignUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
