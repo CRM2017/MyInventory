@@ -10,7 +10,8 @@ target 'MyInventory' do
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
-  pod ‘FirebaseFirestoreSwift’
+  pod 'FirebaseFirestoreSwift'
+  pod 'Charts'
 
 
 end
