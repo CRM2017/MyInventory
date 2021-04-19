@@ -18,6 +18,7 @@
 		3A22CEDE2609D86100266BA5 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22CEDD2609D86100266BA5 /* HomeTableViewController.swift */; };
 		3A22CEE4260FFBBB00266BA5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22CEE3260FFBBB00266BA5 /* Utilities.swift */; };
 		3A6A416C262821EE0044AE68 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6A416B262821EE0044AE68 /* ItemViewController.swift */; };
+		3A6A4186262D6F700044AE68 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6A4185262D6F6F0044AE68 /* PieChartViewController.swift */; };
 		3A7F03CF261C2C9800E66B85 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03CE261C2C9800E66B85 /* item.swift */; };
 		3A7F03D2261C2D9000E66B85 /* itemFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03D1261C2D9000E66B85 /* itemFirebase.swift */; };
 		3A7F03D5261C2EC900E66B85 /* itemManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03D4261C2EC900E66B85 /* itemManagement.swift */; };
@@ -40,6 +41,7 @@
 		3A22CEDD2609D86100266BA5 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		3A22CEE3260FFBBB00266BA5 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3A6A416B262821EE0044AE68 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		3A6A4185262D6F6F0044AE68 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 		3A7F03CE261C2C9800E66B85 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
 		3A7F03D1261C2D9000E66B85 /* itemFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemFirebase.swift; sourceTree = "<group>"; };
 		3A7F03D4261C2EC900E66B85 /* itemManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemManagement.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				3AD8E9D026168411002B2959 /* AddViewController.swift */,
 				3A7F03D7261C468200E66B85 /* ItemTableViewCell.swift */,
 				3A6A416B262821EE0044AE68 /* ItemViewController.swift */,
+				3A6A4185262D6F6F0044AE68 /* PieChartViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				3A7F03D5261C2EC900E66B85 /* itemManagement.swift in Sources */,
 				3A22CEDE2609D86100266BA5 /* HomeTableViewController.swift in Sources */,
 				3A7F03D8261C468200E66B85 /* ItemTableViewCell.swift in Sources */,
+				3A6A4186262D6F700044AE68 /* PieChartViewController.swift in Sources */,
 				3A9A0187261022B1007A4B17 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
