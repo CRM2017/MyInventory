@@ -97,6 +97,7 @@
 				3A22CECD2609D74500266BA5 /* LaunchScreen.storyboard */,
 				3A22CED02609D74500266BA5 /* Info.plist */,
 				3AD8E9A226105ABC002B2959 /* GoogleService-Info.plist */,
+				3A53BCC7262EFB5100E16BAD /* Resources */,
 			);
 			path = MyInventory;
 			sourceTree = "<group>";
@@ -122,6 +123,13 @@
 				3A9A0186261022B1007A4B17 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3A53BCC7262EFB5100E16BAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		3A7F03CD261C2C6C00E66B85 /* Items */ = {
