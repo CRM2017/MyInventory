@@ -19,9 +19,9 @@
 		3A22CEE4260FFBBB00266BA5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22CEE3260FFBBB00266BA5 /* Utilities.swift */; };
 		3A6A416C262821EE0044AE68 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6A416B262821EE0044AE68 /* ItemViewController.swift */; };
 		3A6A4186262D6F700044AE68 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6A4185262D6F6F0044AE68 /* PieChartViewController.swift */; };
-		3A7F03CF261C2C9800E66B85 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03CE261C2C9800E66B85 /* item.swift */; };
-		3A7F03D2261C2D9000E66B85 /* itemFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03D1261C2D9000E66B85 /* itemFirebase.swift */; };
-		3A7F03D5261C2EC900E66B85 /* itemManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03D4261C2EC900E66B85 /* itemManagement.swift */; };
+		3A7F03CF261C2C9800E66B85 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03CE261C2C9800E66B85 /* Item.swift */; };
+		3A7F03D2261C2D9000E66B85 /* ItemFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03D1261C2D9000E66B85 /* ItemFirebase.swift */; };
+		3A7F03D5261C2EC900E66B85 /* ItemManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03D4261C2EC900E66B85 /* ItemManagement.swift */; };
 		3A7F03D8261C468200E66B85 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F03D7261C468200E66B85 /* ItemTableViewCell.swift */; };
 		3A9A0187261022B1007A4B17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9A0186261022B1007A4B17 /* Constants.swift */; };
 		3AD8E9A326105ABC002B2959 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AD8E9A226105ABC002B2959 /* GoogleService-Info.plist */; };
@@ -42,9 +42,9 @@
 		3A22CEE3260FFBBB00266BA5 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3A6A416B262821EE0044AE68 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		3A6A4185262D6F6F0044AE68 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
-		3A7F03CE261C2C9800E66B85 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
-		3A7F03D1261C2D9000E66B85 /* itemFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemFirebase.swift; sourceTree = "<group>"; };
-		3A7F03D4261C2EC900E66B85 /* itemManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemManagement.swift; sourceTree = "<group>"; };
+		3A7F03CE261C2C9800E66B85 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3A7F03D1261C2D9000E66B85 /* ItemFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFirebase.swift; sourceTree = "<group>"; };
+		3A7F03D4261C2EC900E66B85 /* ItemManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManagement.swift; sourceTree = "<group>"; };
 		3A7F03D7261C468200E66B85 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		3A9A0186261022B1007A4B17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3AD8E9A226105ABC002B2959 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -87,12 +87,12 @@
 		3A22CEC12609D74300266BA5 /* MyInventory */ = {
 			isa = PBXGroup;
 			children = (
-				3A7F03CD261C2C6C00E66B85 /* Items */,
-				3A22CEE2260FFABD00266BA5 /* Helpers */,
-				3A22CEE02609D87600266BA5 /* ViewControllers */,
 				3A22CEC22609D74300266BA5 /* AppDelegate.swift */,
 				3A22CEC42609D74300266BA5 /* SceneDelegate.swift */,
-				3A22CEC82609D74300266BA5 /* Main.storyboard */,
+				3A7F03CD261C2C6C00E66B85 /* Model */,
+				3A53BCC92632880600E16BAD /* View */,
+				3A22CEE02609D87600266BA5 /* ViewControllers */,
+				3A22CEE2260FFABD00266BA5 /* Helpers */,
 				3A22CECB2609D74500266BA5 /* Assets.xcassets */,
 				3A22CECD2609D74500266BA5 /* LaunchScreen.storyboard */,
 				3A22CED02609D74500266BA5 /* Info.plist */,
@@ -109,7 +109,6 @@
 				3A22CEDA2609D84900266BA5 /* LoginViewController.swift */,
 				3A22CEDD2609D86100266BA5 /* HomeTableViewController.swift */,
 				3AD8E9D026168411002B2959 /* AddViewController.swift */,
-				3A7F03D7261C468200E66B85 /* ItemTableViewCell.swift */,
 				3A6A416B262821EE0044AE68 /* ItemViewController.swift */,
 				3A6A4185262D6F6F0044AE68 /* PieChartViewController.swift */,
 			);
@@ -132,14 +131,23 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		3A7F03CD261C2C6C00E66B85 /* Items */ = {
+		3A53BCC92632880600E16BAD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3A7F03CE261C2C9800E66B85 /* item.swift */,
-				3A7F03D1261C2D9000E66B85 /* itemFirebase.swift */,
-				3A7F03D4261C2EC900E66B85 /* itemManagement.swift */,
+				3A7F03D7261C468200E66B85 /* ItemTableViewCell.swift */,
+				3A22CEC82609D74300266BA5 /* Main.storyboard */,
 			);
-			path = Items;
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A7F03CD261C2C6C00E66B85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A7F03CE261C2C9800E66B85 /* Item.swift */,
+				3A7F03D1261C2D9000E66B85 /* ItemFirebase.swift */,
+				3A7F03D4261C2EC900E66B85 /* ItemManagement.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BC0CED49CD7A1E2A99A03250 /* Frameworks */ = {
@@ -278,12 +286,12 @@
 				3AD8E9D126168411002B2959 /* AddViewController.swift in Sources */,
 				3A22CEE4260FFBBB00266BA5 /* Utilities.swift in Sources */,
 				3A22CED82609D81500266BA5 /* SignUpViewController.swift in Sources */,
-				3A7F03D2261C2D9000E66B85 /* itemFirebase.swift in Sources */,
-				3A7F03CF261C2C9800E66B85 /* item.swift in Sources */,
+				3A7F03D2261C2D9000E66B85 /* ItemFirebase.swift in Sources */,
+				3A7F03CF261C2C9800E66B85 /* Item.swift in Sources */,
 				3A6A416C262821EE0044AE68 /* ItemViewController.swift in Sources */,
 				3A22CEDB2609D84900266BA5 /* LoginViewController.swift in Sources */,
 				3A22CEC52609D74300266BA5 /* SceneDelegate.swift in Sources */,
-				3A7F03D5261C2EC900E66B85 /* itemManagement.swift in Sources */,
+				3A7F03D5261C2EC900E66B85 /* ItemManagement.swift in Sources */,
 				3A22CEDE2609D86100266BA5 /* HomeTableViewController.swift in Sources */,
 				3A7F03D8261C468200E66B85 /* ItemTableViewCell.swift in Sources */,
 				3A6A4186262D6F700044AE68 /* PieChartViewController.swift in Sources */,
